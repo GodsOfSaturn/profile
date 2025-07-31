@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Psalmuel Doqueza - Profile</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Full width navbar */
+    .navbar {
+      margin-bottom: 20px;
+    }
+    
+    /* Centered content container */
+    .content-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    
+    .profile-container {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    
+    @media (max-width: 600px) {
+      .profile-container {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+    
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #4a90e2;
+    }
+    
+    h1 {
+      color: #333;
+      margin: 0;
+    }
+    
+    .title {
+      color: #666;
+      font-style: italic;
+      margin: 5px 0;
+    }
+    
+    .bio {
+      background-color: #f5f5f5;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    
+    .social-links {
+      margin-top: 20px;
+    }
+    
+    .social-links a {
+      margin-right: 10px;
+      text-decoration: none;
+      color: #4a90e2;
+    }
+    
+    @media (max-width: 400px) {
+      .social-links a {
+        display: block;
+        margin-bottom: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Psalmuel Doqueza</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="content-container">
+    <div class="profile-container">
+      <img src="img/huskar.jpg" alt="Profile Picture" class="profile-pic">
+      <div>
+        <h1>Psalmuel Doqueza</h1>
+        <p class="title">Web Developer & Huskar</p>
+        <p>Dire</p>
+      </div>
+    </div>
+    
+    <div class="bio">
+      <h2>About Me</h2>
+      <p>Hello! I'm a passionate web developer with 5 years of experience creating beautiful, functional websites. I specialize in front-end development with HTML, CSS, and JavaScript, and I love turning ideas into digital reality.</p>
+      <p>When I'm not coding, you can find me hiking, reading sci-fi novels, or experimenting with new recipes in the kitchen.</p>
+    </div>
+    
+    <div class="social-links">
+      <h3>Connect with me:</h3>
+      <a href="https://twitter.com/janedoe" target="_blank">Twitter</a>
+      <a href="https://linkedin.com/in/janedoe" target="_blank">LinkedIn</a>
+      <a href="https://github.com/janedoe" target="_blank">GitHub</a>
+      <a href="mailto:jane@example.com">Email</a>
+    </div>
+  </div>
+</body>
+</html>
